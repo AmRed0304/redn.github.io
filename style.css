@@ -4,12 +4,13 @@
 }
 
 .main{
-    width: 100%;
+    width: 100vw;
     background: url(pic/bg.avif);
     background-position: center;
     background-size: cover;
     height: 100vh;
     position: relative;
+    margin:0;
 
 }
 
@@ -100,7 +101,7 @@ ul li a:hover{
 
 .image {
     width: 30%;
-    height:70%;
+    height:40%;
     position: absolute;
     right:100px;
     bottom: 0;
