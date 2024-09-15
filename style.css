@@ -109,7 +109,7 @@ ul li a:hover{
 .image img{
     position: absolute;
     height: 140%;
-    left:36%;
+    left:30%;
     transform: translate(-60%);
     bottom:0; 
     transition:  left 2s ease; 
