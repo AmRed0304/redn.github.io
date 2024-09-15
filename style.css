@@ -51,7 +51,9 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-
+ul li a:hover{
+    color:rgb(173, 23, 35);
+}
   .logo{
     width: 46px;
     height: 46px;
@@ -102,6 +104,8 @@ h3 {
     padding: 20px 20px;
     height: 20px;
 }
+.icons ion-icon:hover{
+    color: blue;
 
 @media screen and (max-width: 600px) {
     .main {
