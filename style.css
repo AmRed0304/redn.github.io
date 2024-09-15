@@ -104,6 +104,9 @@ h3 {
     padding: 20px 20px;
     height: 20px;
 }
+.icons ion-icon{
+color:#f3ecec;
+}
 .icons ion-icon:hover{
     color: blue;
 
