@@ -17,10 +17,11 @@
     border-radius: 60px;
     height: 100px;
     width: 100px;
+    margin-left: 7%;
 }
 
 .navbar{
-    width: 86%;
+    width: 100%;
     display: flex;
     margin:auto;
     padding: 15px 0;
@@ -28,6 +29,7 @@
     justify-content: space-between;
     position: relative;
     z-index: 1;
+    background-color: rgb(24, 24, 34);
 }
 
 .navbar .logo{
