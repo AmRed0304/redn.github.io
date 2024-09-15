@@ -2,168 +2,108 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    background-image: url("pic/bg.avif");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
 .main{
-    width: 100vw;
-    background: url(pic/bg.avif);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    position: relative;
-    margin:0;
-
+    width: 1000px;
+    padding-top: 15px;
+    margin: 0 auto;
+    padding-bottom:20px;
 }
 
-.logo{
-    border-radius: 60px;
-    height: 100px;
-    width: 100px;
-    margin-left: 7%;
+div .navbar{
+   background-color:black;
 }
-
 .navbar{
-    width: 100%;
-    display: flex;
+    width:100%;
+    display:flex;
     margin:auto;
-    padding: 15px 0;
+    padding:15px 0;
     align-items: center;
     justify-content: space-between;
-    position: relative;
+    position:relative;
     z-index: 1;
-    background-color: rgb(24, 24, 34);
 }
-
-.navbar .logo{
-    cursor: pointer;
-}
-
-ul{
-    margin-top: -2%;  
-}
-
-ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 10px 16px;
-}
-
-ul li a{
-    font-size: 16px;
-    font-weight: bold;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  } 
+  li {
+    float: right;
+  }  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color:rgb(118, 234, 238);
-    margin-top:-3%;
-    transition: 2s ease;
-    text-shadow:
-   -1px -1px 0 #000,
-    1px -1px 0 #000,
-   -1px  1px 0 #000,
-    1px  1px 0 #000;
+  }
+  .logo{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left:7%;
 }
-
-ul li a:hover{
-    color:rgb(173, 23, 35);
+.image .me {
+    width: 250px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 30px; 
 }
-
-.info{
-    margin-left: 7%;
-    margin-top: 6%;
-    color:silver
-
+.info {
+    margin: 0 100px;
+    padding:30px;
+    height: 100%;
 }
-
-
-.info h3 {
-   color:rgb(185, 192, 190);
-   text-shadow:
-   -1px -1px 0 #000,
-    1px -1px 0 #000,
-   -1px  1px 0 #000,
-    1px  1px 0 #000;
-}
-
-.info h4{
+h2 {
+    text-align: center;
+    color:gold;
     text-shadow:
     -1px -1px 0 #000,
-     1px -1px 0 #000,
-    -1px  1px 0 #000,
-     1px  1px 0 #000;
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
-
-.info h2{
+h3 {
+    color:silver;
     text-shadow:
     -1px -1px 0 #000,
-     1px -1px 0 #000,
-    -1px  1px 0 #000,
-     1px  1px 0 #000;
-     color:chocolate;
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    }
+.icons{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 50px;;
 }
-
-.image {
-    width: 30%;
-    height:40%;
-    position: absolute;
-    right:100px;
-    bottom: 0;
-}
-
-.image img{
-    position: absolute;
-    height: 140%;
-    left:36%;
-    transform: translate(-60%);
-    bottom:0; 
-    transition:  left 2s ease; 
-}
-
-.image:hover .me{
-    left:50%;
-
-}
-
 .icons a{
     text-decoration: none;
-    color:#f5f4f4;
+    padding: 20px 20px;
+    height: 20px;
 }
 
-.icons ion-icon{
-    margin-left: 7%;
-    color:#f3ecec;
-    margin-right: -60px;
-    height: 100px;
-    width: 30px;
-    transition: 2s ease;   
-}
-
-.icons ion-icon:hover{
-    color:blue
-}
-@media screen and (max-width:900px){
-    .navbar{
-        width: 100%;
-        height: 70px;
+@media screen and (max-width: 600px) {
+    .main {
+        width: 90%;
+        padding: 15px;
+    } 
+    .image {
+        width: 50%;
+        margin:0 auto;
     }
-    .navbar .logo{
-        heigth:50px;
-        width:50px;
+    .info {
+        margin: 0 10px;
     }
-    .info{
-        margin-left:5%;
-        margin-top: 45%;
-    }
-    ul li {
-        padding:8px 12px;
-    }
-    .icons ion-icon {
-        height: 80px;
-        width:30px;
-        margin-right:10px;
-        margin-left: 7%;
-    }
-    .me {
-        width:70px;
-        position: absolute;
-        margin-left: 20%;
-        margin-bottom:0;
+    .icons a {
+        padding: 10px;
     }
 }
